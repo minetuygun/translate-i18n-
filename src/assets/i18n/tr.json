@@ -1,0 +1,10 @@
+{
+    "title": " Turkish Page",
+    "message": {
+      "hello": "merhaba",
+      "title": "sayfaya hoşgeldiniz",
+      "write":" Bizler, sizin için harika bir deneyim sunmak amacıyla bu web sitesini oluşturduk. Amacımız, sizlere ilgi çekici içerikler, son haberler ve eğlenceli etkinlikler sunmak.",
+      "label":"ngx-translate(i18n) kütüphanesi - Angular"
+      
+    }
+  }

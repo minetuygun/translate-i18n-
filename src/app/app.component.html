@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+</head>
+<body>
+  <main>
+   
+  
+    
+  <section class="wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center mb-5">
+           <h1 class="display-4 font-weight-bolder"><div class="element label">
+            {{ "message.label" | translate }}
+          </div></h1>
+   
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="btn btn-primary btn-lg   " data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+          type="button"
+          [ngClass]="{ active: selectedLanguage === languageEnum.English }"
+          (click)="changeLanguage(languageEnum.English)"
+        >
+          English
+        </button>
+        
+        <button class="btn btn-light  btn-lg mx-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+          type="button"
+          [ngClass]="{ active: selectedLanguage === languageEnum.Turkish }"
+          (click)="changeLanguage(languageEnum.Turkish)"
+        >
+          Turkish
+        </button>
+        
+      </div>
+    <div class="row" id="center-row" >
+    <div class="col-sm-12 col-md-6 col-lg-5 mb-4 mt-5  " >
+    
+      
+      <div class="card text-dark card-has-bg click-col "  style="background-image:url('https://source.unsplash.com/600x900/?computer,design');">
+           <img class="card-img d-none" src="https://source.unsplash.com/600x900/?computer,design" alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
+          <div class="card-img-overlay d-flex flex-column">
+           <div class="card-body">
+              <small class="card-meta mb-2"> <div class="element title">
+                {{ "message.title" | translate }}
+              </div></small>
+              <h4 class="card-title mt-0 "><a class="text-dark" href="https://creativemanner.com"></a> <div class="element hello">
+                {{ "message.hello" | translate }}
+              </div></h4>
+             <small><i class="far fa-clock"></i> July 22, 2023</small>
+            </div>
+            <div class="element write">
+              {{ "message.write" | translate }}
+            </div>
+            <div class="card-footer">
+             <div class="media">
+   
+    <div class="media-body">
+      <h6 class="my-0 text-dark d-block">Mine Tuygun</h6>
+       <small>Front-end Developer</small>
+    </div>
+  </div>
+            </div>
+          </div>
+        </div></div>
+    
+  </div>
+    
+  </div>
+  </section>
+  
+  </main>
+  
+  
+  
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

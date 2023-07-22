@@ -1,0 +1,10 @@
+{
+    "title": " English Page",
+    "message": {
+      "hello": "hello",
+      "title": "welcome page",
+      "write":" We have created this website to provide a great experience for you. Our goal is to provide you with interesting content, the latest news and fun events.",
+      "label":"ngx-translate (i18n) library for Angular"
+    }
+    
+  }
